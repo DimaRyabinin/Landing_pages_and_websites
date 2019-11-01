@@ -1,20 +1,14 @@
-body {
-    background:
-    url(../assets/img/header_background/upper.png),
-    url(../assets/img/header_background/middle.png),
-    url(../assets/img/header_background/lower.png),
+// Base grid settings
+@import 'base/grid';
 
-    url(../assets/img/main_background/about_us/gray_block.png) center 1348px,
+//  Interface settings
+@import 'interface';
 
-    url(../assets/img/main_background/paralax_section/upper.png) center 3581px,
-    url(../assets/img/main_background/paralax_section/middle.png) center 3581px,
-    url(../assets/img/main_background/paralax_section/lower.png) center 3581px,
+// Typography
+@import 'base/typography';
 
-    url(../assets/img/main_background/clients_section/gray_block.png) center 5028px,
+// Fonts
+@import 'base/fonts';
 
-    url(../assets/img/footer_background/red_block.png) center 6166px;
-
-    
-    background-size: 100vw auto;
-    background-repeat: no-repeat;
-}
+// Layout header
+@import 'layout/header';
