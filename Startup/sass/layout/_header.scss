@@ -1,3 +1,12 @@
+.header {
+    height: 100vh;
+    background:
+    url(../assets/img/header_background/upper.png) no-repeat 50% 50%,
+    url(../assets/img/header_background/middle.png) no-repeat 50% 50%,
+    url(../assets/img/header_background/lower.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
 .hat-wrap {
     display: flex;
     justify-content: space-between;
@@ -12,5 +21,34 @@
 
     .header-nav__link {
         @include navbar;
+    }
+}
+
+.header-logo__img {
+    margin-top: 40px;
+}
+
+.header-nav__link {
+    margin-top: 20px;
+}
+
+.hover {
+    &__heading {
+    margin-top: 264px;
+        &_lower {
+            margin-top: 25px;
+        }
+    }
+    &__wrap {
+        display: flex;
+        justify-content: center;
+    }
+    &__button {
+        background: rgba(255, 255, 255, 0);
+        width: 180px;
+        height: 50px;
+        border-radius: 2px;
+        border: 2px solid #ffffff;
+        cursor: pointer;
     }
 }

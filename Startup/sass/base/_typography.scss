@@ -1,9 +1,47 @@
 @mixin navbar {
     color: #ffffff;
-    font-family: 'Montserrat';
-    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.35px;
     text-decoration: none;
+}
+
+@mixin font-Monsterrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin font-Roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.hover {
+    &__heading {
+        text-align: center;
+        &_up {
+            @include font-Monsterrat();
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &_lower {
+            @include font-Roboto();
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    &__button {
+        @include font-Monsterrat();
+        width: 111px;
+        height: 13px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
 }
