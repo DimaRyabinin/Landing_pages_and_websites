@@ -45,3 +45,67 @@
         text-transform: uppercase;
     }
 }
+
+// main
+// section-services
+.wrapper {
+    text-align: center;
+}
+
+.section-services__title {
+    @include font-Monsterrat();
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section-services__subtitle {
+    height: 17px;
+
+    @include font-Roboto();
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+// section_about-us
+.text {
+    height: 110px;
+
+    @include font-Roboto();
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-us {
+    &__name {
+        margin-top: 20px;
+
+        height: 11px;
+
+        @include font-Monsterrat();
+        text-align: center;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    &__post {
+        margin-top: 15px;
+
+        height: 14px;
+
+        @include font-Roboto();
+        text-align: center;
+        color: #555555;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
