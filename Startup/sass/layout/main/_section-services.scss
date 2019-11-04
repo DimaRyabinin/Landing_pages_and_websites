@@ -45,10 +45,10 @@
                 line-height: 24px;
                 text-transform: uppercase;
             }
-            &__text {
+            &__text { // 1125 345
                 margin-top: 24px;
-
-                height: 63px;
+                width: 100%;
+                height: auto;
 
                 @include font-Roboto();
                 color: #555555;

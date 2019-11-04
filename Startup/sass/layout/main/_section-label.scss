@@ -1,0 +1,24 @@
+.label {
+    background-color: #f8f8f8;
+    margin-top: 101px;
+    padding-top: 98px;
+    &-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+    &__button {
+        display: flex;
+        justify-content: center
+    }
+    &__button-first:not(:first-child) {
+        margin-left: 7px;
+    }
+    &__button-first {
+        margin-top: 40px;
+        padding-bottom: 100px;
+    }
+}

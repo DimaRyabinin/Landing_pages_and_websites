@@ -1,0 +1,37 @@
+.posts {
+    .article {
+        margin-top: 69px;
+        &__img {
+            max-width: 100%;
+            height: auto;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-around;
+            &_first {
+                padding-bottom: 38px;
+                border-bottom: 1px solid #dddddd;
+            }
+            &_second {
+                margin-top: 38px;
+            }
+        }
+        &__aside {
+            display: flex;
+            flex-direction: column;
+        }
+        &__aside_first-line {
+            display: flex;
+            align-items: center;
+            .date {
+                margin-right: 28px;
+                padding: 19px 22px 19px 22px;
+
+                border: 2px solid #555555;
+            }
+        }
+        &__aside_third-line {
+            margin-top: 34px;
+        }
+    }
+}

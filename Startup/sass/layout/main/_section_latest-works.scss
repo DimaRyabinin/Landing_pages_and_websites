@@ -1,0 +1,27 @@
+.latest-works {
+    .section-services__subtitle {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.latest-works {
+    &__figure {
+        margin: 70px 0 0 0;
+        // display: flex;
+        // justify-content: space-between;
+    }
+    .wrapper__column {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper__column:not(:first-child) {
+        margin-top: 25px;
+    }
+
+    .line__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
