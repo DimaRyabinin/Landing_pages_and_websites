@@ -131,6 +131,35 @@
     }
 }
 
+.latest-works__wrapper_first {
+    .picture-content {
+        &__button {
+            background-color: #ffffff;
+            color: #c0301c;
+            @include font-Roboto();
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+        }
+        &__title {
+            color: #ffffff;
+            @include font-Monsterrat();
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        &__subtitle {
+            color: #ffffff;
+            @include font-Roboto();
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
 // section_feedback
 .feedback {
     &__title {

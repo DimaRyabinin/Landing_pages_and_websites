@@ -25,3 +25,28 @@
         height: auto;
     }
 }
+
+.latest-works__wrapper_first {
+    max-width: 100%;
+    position: relative;
+    .picture-content {
+        &__button {
+            position: absolute;
+            top: 52%;
+            left: 35%;
+            padding: 5px 21px 7px 20px;
+            cursor: pointer;
+        }
+        &__subtitle {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            margin-top: 3px;
+        }
+        &__title {
+            position: absolute;
+            top: 33%;
+            left: 34%;
+        }
+    }
+}
