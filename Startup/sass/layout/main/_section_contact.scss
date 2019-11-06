@@ -1,0 +1,120 @@
+.contact-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside {
+    &-line {
+        display: flex;
+        .address-picture__img1 {
+            width: 12px;
+            height: 17px;
+            margin-top: 5px;
+        }
+        .address-picture__img2 {
+            width: 12px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .address-picture__img3 {
+            width: 15px;
+            height: 11px;
+            margin-top: 8px;
+        }
+    }
+    &-column {
+        margin-left: 14px;
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.address {
+    margin-top: 75px;
+}
+
+.hotline {
+    margin-top: 37px;
+}
+
+.email {
+    margin-top: 40px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    &_first {
+        width: 206px;
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 100%;
+    margin-top: 75px;
+    margin-left: 163px;
+
+    display: flex;
+    flex-direction: column;
+    &__line {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__input {
+        width: 100%;
+        padding: 17px 0 17px 17px;
+        &_second {
+            margin-left: 30px;
+        }
+        &_text {
+            padding-bottom: 77px;
+        }
+    }
+    &__line:not(:first-child) {
+        margin-top: 21px;
+    }
+    .form__input_submit {
+        padding: 17px 36px 17px 36px;
+        border: 1px solid #555555;
+    }
+}
+
+.form__input {
+    border: 1px solid #555555;
+    &:focus {
+        outline: none;
+        border: 1px solid #c0301c;
+    }
+    &_submit:focus {
+        outline: none;
+    }
+    &_submit {
+        cursor: pointer;
+    }
+}
+
+.form__input_textarea {
+    resize: none;
+}
+
+.form__line {
+    &_wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+    &_end {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .star {
+        margin-left: 38px;
+    }
+    .form__input_warning {
+        margin-left: 2px;
+    }
+}
