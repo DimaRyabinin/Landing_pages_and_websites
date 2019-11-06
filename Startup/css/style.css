@@ -303,6 +303,7 @@
 }
 
 .form__input_submit {
+  background-color: #ffffff;
   color: #555555;
   font-family: "Roboto Slab", serif;
   font-size: 12px;
