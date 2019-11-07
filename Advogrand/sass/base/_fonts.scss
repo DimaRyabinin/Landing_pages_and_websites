@@ -1,0 +1,36 @@
+@font-face {
+    src: url(../../assets/fonts/ProximaNova-Bold.ttf);
+    font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+@font-face {
+    src: url(../../assets/fonts/ProximaNova-Light.ttf);
+    font-family: 'ProximaNova-Light', sans-serif;
+}
+
+@font-face {
+    src: url(../../assets/fonts/ProximaNova-Extrabld.ttf);
+    font-family: 'ProximaNova-Extrabld', sans-serif;
+}
+
+@font-face {
+    src: url(../../assets/fonts/ProximaNova-Regular.ttf);
+    font-family: 'ProximaNova-Regular', sans-serif;
+
+}
+
+@mixin ProximaNova-Bold {
+    font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+@mixin ProximaNova-Light {
+    font-family: 'ProximaNova-Light', sans-serif;
+}
+
+@mixin ProximaNova-Extrabld {
+    font-family: 'ProximaNova-Extrabld', sans-serif;
+}
+
+@mixin ProximaNova-Regular {
+    font-family: 'ProximaNova-Regular', sans-serif;
+}
