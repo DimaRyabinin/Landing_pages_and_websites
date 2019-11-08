@@ -1,0 +1,48 @@
+.algorithm {
+    &__title {
+        padding-top: 100px;
+        margin: 0;
+
+        color: #1c1c1c;
+        @include ProximaNova-Bold;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+    background-color: #f5f5f5;
+    &__data {
+        display: flex;
+        justify-content: space-around;
+    }
+    .img {
+        &-first {
+            margin-top: 96px;
+        }
+        &-second {
+            margin-top: 106px;
+        }
+        &-third {
+            margin-top: 114px;
+        }
+    }
+    .description {
+        margin-top: 54px;
+
+        text-align: center;
+        color: #1c1c1c;
+        @include ProximaNova-Light;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0.16px;
+    }
+    .description-third {
+        @include ProximaNova-Bold;
+        font-weight: 700;
+    }
+    .description-first {
+        padding-bottom: 98px;
+    }
+}
