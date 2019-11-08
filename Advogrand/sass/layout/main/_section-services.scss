@@ -1,0 +1,47 @@
+.services {
+    margin-top: 100px;
+    &__heading {
+        color: #1c1c1c;
+        @include ProximaNova-Bold;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        &__line {
+            display: flex;
+            &_second {
+                margin-top: 92px;
+            }
+            &_third {
+                margin-top: 92px;
+            }
+        }
+        .text {
+            margin-left: 22px;
+
+            @include ProximaNova-Light;
+            color: #1c1c1c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.16px;
+            &:hover {
+                color: #e61010;
+                transition-delay: 0.2s;
+            }
+        }
+
+    }
+}
+
+.wrap {
+    margin-top: 84px;
+
+    display: flex;
+    justify-content: space-between;
+}
