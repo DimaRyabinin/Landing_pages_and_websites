@@ -1,0 +1,88 @@
+.about {
+    padding-top: 100px;
+    padding-bottom: 99px;
+    margin-top: 104px;
+    background: url(../assets/img/main/section-about/background.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    &__title {
+        // padding-top: 100px;
+
+        @include ProximaNova-Bold;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+    &__description {
+        @include ProximaNova-Light;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+        text-align: center;
+        &_up {
+            margin-top: 79px;
+        }
+        &_down {
+            margin-top: 30px;
+        }
+    }
+    &__data {
+        margin-top: 85px;
+        display: flex;
+        justify-content: space-around;
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .char {
+            color: #ffffff;
+            @include ProximaNova-Bold;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0.48px;
+            &-other {
+                @include ProximaNova-Bold;
+                color: #ffffff;
+                font-weight: 700;
+                line-height: 20px;
+                font-size: 48px;
+                letter-spacing: 0.48px;
+            }
+        }
+        .bracket {
+            @include ProximaNova-Bold;
+            color: #ffffff;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0.24px;
+            font-size: 24px;
+        }
+        // .char-other {
+        //     @include ProximaNova-Bold;
+        //     font-size: 24px;
+        //     font-weight: 700;
+        //     line-height: 20px;
+        //     letter-spacing: 0.24px;
+        //     font-size: 48px;
+        //     letter-spacing: 0.48px;
+        // }
+        .description {
+            margin-top: 29px;
+            color: #ffffff;
+            @include ProximaNova-Light;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.16px;
+            text-align: center;
+        }
+    }
+}
