@@ -19,6 +19,16 @@
 
 }
 
+@font-face {
+    src: url(../../assets/fonts/MullerBold.ttf);
+    font-family: 'Muller-Bold', sans-serif;
+}
+
+@font-face {
+    src: url(../../assets/fonts/MullerLight.otf);
+    font-family: 'Muller-Light', sans-serif;
+}
+
 @mixin ProximaNova-Bold {
     font-family: 'ProximaNova-Bold', sans-serif;
 }
@@ -33,4 +43,12 @@
 
 @mixin ProximaNova-Regular {
     font-family: 'ProximaNova-Regular', sans-serif;
+}
+
+@mixin Muller-Bold {
+    font-family: 'Muller-Bold', sans-serif;
+}
+
+@mixin Muller-Light {
+    font-family: 'Muller-Light', sans-serif;
 }
