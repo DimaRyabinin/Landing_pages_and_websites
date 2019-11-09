@@ -1,0 +1,109 @@
+.advantages {
+    &__title {
+        margin-top: 100px;
+
+        text-align: center;
+        color: #1c1c1c;
+        @include ProximaNova-Bold;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        letter-spacing: 0.3px;
+        line-height: 40px;
+    }
+    .wrap {
+        display: flex;
+        &-inside {
+            display: flex;
+        }
+    }
+    &__aside {
+        .text {
+            @include ProximaNova-Light;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 45px;
+            letter-spacing: 0.13px;
+            &-first {
+                font-weight: 700;
+            }
+        }
+        .text:not(:second-child) {
+            color: #000000;
+        }
+        &_first {
+            padding: 73px 29px 38px 0px;
+            text-align: right;
+        }
+        &_second {
+            padding: 30px 45px 37px 45px;
+            text-align: center;
+            box-shadow: 0 10px 10px rgba(38, 184, 58, 0.2);
+            background-color: #26b83a;
+            color: #ffffff;
+        }
+        &_third {
+            padding: 30px 20px 36px 18px;
+            text-align: center;
+            border: 1px solid #e8e8e8;
+        }
+    }
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    &__title {
+        margin-bottom: 25px;
+
+        color: #1c1c1c;
+        @include ProximaNova-Bold;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.16px;
+    }
+    &__numbers {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        &_first {
+            margin: 0;
+        }
+        .number {
+            margin-left: 20px;
+
+            @include ProximaNova-Regular;
+            color: #1c1c1c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 45px;
+            font-weight: 700;
+            letter-spacing: 0.16px;
+        }
+        .people {
+            margin-left: 3px;
+
+            @include ProximaNova-Light;
+            color: #1c1c1c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 45px;
+            letter-spacing: 0.16px;
+        }
+    }
+    &__button {
+        margin-top: 31px;
+        border-radius: 5px;
+        background-color: #c91111;
+        background-image: linear-gradient(to top, #c11717 0%, #e42626 100%);
+        padding: 18px 85px 18px 80px;
+
+        color: #ffffff;
+        @include ProximaNova-Bold;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.18px;
+        cursor: pointer;
+    }
+}
