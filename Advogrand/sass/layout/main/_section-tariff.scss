@@ -1,0 +1,184 @@
+.tariff {
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    &-title {
+        margin: 0;
+        padding-top: 99px;
+
+        color: #313131;
+        @include Muller-Bold;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    &-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .subtitle {
+        margin: 0;
+        margin-top: 39px;
+
+        color: #313131;
+        @include Muller-Bold;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .wrapper {
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__text {
+            color: #313131;
+            @include Muller-Light;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        &__button {
+            color: #313131;
+            @include Muller-Bold;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            background-color: #f5f5f5;
+            border: none;
+        }
+        &__button:hover {
+            color: #e42626;
+        }
+        &_button {
+            display: flex;
+            justify-content: space-between;
+            width: 244px;
+        }
+    }
+    .cards {
+        margin-top: 39px;
+        display: flex;
+        .card {
+            border-right: 2px solid #f5f5f5;
+        }
+        .card {
+            // max-width: 310px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            padding-right: 30px;
+            padding-left: 20px;
+            &__service {
+                display: flex;
+                justify-content: space-between;
+                
+                border-top: 1px solid #f5f5f5;
+                &_first {
+                    margin-top: 31px;
+                }
+                &_end {
+                    border-bottom: 1px solid #f5f5f5;
+                }
+            }
+            &__title {
+                text-align: center;
+                margin-top: 52px;
+                margin-bottom: 29;
+
+                color: #000000;
+                @include Muller-Light;
+                font-size: 20px;
+                font-weight: 400;
+                .bold {
+                    font-weight: 700;
+                }
+            }
+            &__image {
+                max-width: 100%;
+                height: auto;
+            }
+            .fig {
+                margin: 0;
+                text-align: center;
+            }
+            .service {
+                color: #000000;
+                @include Muller-Light;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            .quantity {
+                margin-left: 40px;
+
+                color: #000000;
+                @include Muller-Light;
+                font-size: 11px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            &__subtitle {
+                margin-top: 184px;
+
+                text-align: center;
+                color: #000000;
+                @include Muller-Light;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 40px;
+                &_second {
+                    margin-top: 144px;
+                }
+                &_third {
+                    margin-top: 62px;
+                }
+            }
+            &__price {
+                color: #000000;
+                @include Muller-Bold;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 40px;
+                text-align: center;
+            }
+            &__button_first {
+                margin-top: 33px;
+                padding: 10px 35px 10px 46px;
+                // max-width: 200px;
+                // max-height: 55px;
+                border-radius: 5px;
+                background-color: #000000;
+                background-image: linear-gradient(to top, #ff2e00 0%, #ff4c25 100%);
+
+                color: #ffffff;
+                @include Muller-Bold;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 40px;
+                cursor: pointer;
+                &-middle {
+                    background-color: #000000;
+                    background-image: linear-gradient(to top, #008e00 0%, #00a300 100%);
+                }
+                &-end {
+                    background-color: #000000;
+                    background-image: linear-gradient(to top, #001c67 0%, #02388f 100%);
+                }
+            }
+            &__button_second {
+                margin-top: 15px;
+                margin-bottom: 50px;
+                padding: 10px 64px 10px 76px;
+
+                border-radius: 5px;
+                background-color: #9a9a9a;
+                color: #ffffff;
+                @include Muller-Bold;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
