@@ -1,0 +1,22 @@
+font-face {
+    src: url(../../assets/fonts/futurademic.otf);
+    font-family: 'FuturaDemic', sans-serif;
+}
+
+font-face {
+    src: url(../../assets/fonts/futurabookc.otf);
+    font-family: 'FuturaBookc', sans-serif;
+}
+
+@mixin FuturaDemic {
+    font-family: 'FuturaDemic', sans-serif;
+}
+
+@mixin FuturaBookc {
+    font-family: 'FuturaBookc', sans-serif;
+}
+
+@mixin Yeseva-One {
+    font-family: 'Yeseva One', cursive;
+
+}
