@@ -1,0 +1,64 @@
+.hat {
+    .wrapper {
+        padding-top: 24px;
+        padding-bottom: 22px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    background: #131313;
+    // min-height: 83px;
+    &__logo {
+        @include FuturaDemic;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+
+        color: #E3B873;
+    }
+    &__nav {
+        width: 581.43px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .link {
+            @include FuturaBookc;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+            &:hover {
+                color: #E3B873;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+    &__phone {
+        @include FuturaDemic;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        text-decoration-line: underline;
+        
+        color: #E3B873;
+    }
+    &__button {
+        padding: 12px 33px 12px 33px;
+
+        @include FuturaDemic;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: none;
+        
+        color: #FFFFFF;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px
+    }
+}

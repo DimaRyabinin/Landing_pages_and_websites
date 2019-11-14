@@ -1,0 +1,99 @@
+.continuation {
+    .wrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .aside {
+        max-width: 82px;
+        height: 707px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #131313;
+        // justify-content: center;
+        &__link {
+            margin-top: 280px;
+
+            @include FuturaDemic;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+    
+            color: #E3B873;
+    
+            transform: rotate(90deg);
+        }
+        &__image {
+            margin-top: 44px;
+        }
+    }
+    .advertising {
+        // background: url(../assets/images/header/room-header.png);
+        // background-repeat: no-repeat;
+        width: 1358px;
+        height: 707px;
+        background: url(../assets/images/header/room-header.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .yellow {
+            @include Yeseva-One;
+            color: #E3B873;
+        }
+        &__title {
+            margin-top: 194px;
+            // margin-left: 60px;
+            margin-left: 5vw;
+
+            @include Yeseva-One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 53px;
+            text-transform: uppercase;
+            
+            color: #FFFFFF;
+        }
+        &__subtitle {
+            margin-top: 19px;
+            // margin-left: 60px;
+            margin-left: 5vw;
+
+
+            @include FuturaBookc;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 300;
+            
+            color: #FFFFFF;
+        }
+        .wrap {
+            margin-left: 5vw;
+
+            display: flex;
+            justify-content: space-between;
+            max-width: 454px;
+            .adversting__button {
+                @include FuturaDemic;
+                font-size: 13px;
+                line-height: 15px;
+                text-align: center;
+                border-radius: 2px;
+                outline: none;
+                cursor: pointer;
+
+                color: #FFFFFF;
+                &_yellow {
+                    padding: 19px 35px 20px 35px;
+                    background: #E3B873;
+                    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+                }
+                &_clear {
+                    padding: 19px 17px 20px 17px;
+                    background: rgba(0, 0, 0, 0);
+                }
+            }
+        }
+    }
+}
