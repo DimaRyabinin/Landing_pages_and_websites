@@ -1,3 +1,27 @@
+.header {
+    position: relative;
+    .scroll {
+        padding: 34px 49px 34px 48px;
+        // margin-top: 751px;
+        bottom: 0;
+        position: absolute;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #131313;
+        .scroll__text {
+            @include Yeseva-One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+    }
+}
 .continuation {
     .wrapper {
         display: flex;
@@ -29,8 +53,6 @@
         }
     }
     .advertising {
-        // background: url(../assets/images/header/room-header.png);
-        // background-repeat: no-repeat;
         width: 1358px;
         height: 707px;
         background: url(../assets/images/header/room-header.png);
