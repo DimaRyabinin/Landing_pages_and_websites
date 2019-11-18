@@ -1,0 +1,41 @@
+.shape {
+    position: relative;
+    height: 900px;
+    .background {
+        position: absolute;
+        width: 50vw;
+        height: 900px;
+        top: 0;
+        right: 0;
+    
+        background: url(../assets/images/background/background-third.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1000;
+    }
+    .content {
+        padding-right: 487px;
+        &__title {
+            margin-top: 31px;
+
+            font-size: 30px;
+        }
+        &__subtitle {
+            margin-top: 181px;
+
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 65px;
+        }
+        &__text_first {
+            margin-top: 100px;
+        }
+        &__text_second {
+            margin-top: 30px;
+        }
+        &__button {
+            margin-top: 27px;
+        }
+    }
+}
