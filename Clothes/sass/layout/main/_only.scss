@@ -1,0 +1,65 @@
+.only {
+    position: relative;
+    height: 900px;
+    .background {
+        position: absolute;
+        width: 50vw;
+        height: 900px;
+        top: 0;
+        left: 0;
+    
+        background: url(../assets/images/background/background-second.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1000;
+    }
+    .content {
+        float: right;
+        text-align: right;
+        padding-left: 487px;
+        &__title {
+            margin-top: 31px;
+
+            font-size: 30px;
+        }
+        &__subtitle {
+            margin-top: 181px;
+
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 65px;
+        }
+        &__text_first {
+            margin-top: 100px;
+        }
+        &__text_second {
+            margin-top: 30px;
+        }
+        &__button {
+            margin-top: 27px;
+        }
+        .next {
+            margin-top: 100px;
+        }
+    }
+}
+
+.next {
+    text-align: right;
+    &__text {
+        text-align: right;
+
+        opacity: 0.2;
+        color: #171717;
+        @include Proxima-Nova-Semibold;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__img {
+        margin-left: 20px;
+
+        text-align: right;
+    }
+}

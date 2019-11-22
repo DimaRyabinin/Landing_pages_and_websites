@@ -1,73 +1,111 @@
 .hat {
-    display: flex;
-}
-.article {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    &__logo {
-        display: flex;
-        margin-top: 44px;
-        .logo__text {
-            margin-top: 7px;
-            margin-left: 18px;
-            
+    padding-top: 44px;
 
-            @include Proxima-Nova-Semibold;
-            color: #333333;
-            font-size: 24px;
-            font-weight: 400;
-            text-decoration: none;
-            .pink {
-                color: #ff4d87;
-            }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    &__text {
+        margin-left: 18px;
+        color: #333333;
+        @include Proxima-Nova-Semibold;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        .pink {
+            color: #ff4d87;
         }
     }
-    &__link {
-        margin-top: 60px;
-
-        @include Proxima-Nova-Semibold;
-        font-size: 12px;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: #ff0a6a;
-        text-decoration: none;
-    }
 }
 
-.aside {
-    min-height: 900px;
-    width: 50%;
-    background: url(../assets/images/background/background-first.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    &__nav {
-        display: flex;
-        justify-content: space-around;
-        max-width: 520px;
-    }
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
     &__link {
-        margin-top: 60px;
-
         color: #333333;
         @include Proxima-Nova-Semibold;
         font-size: 12px;
         font-weight: 400;
         text-transform: uppercase;
         text-decoration: none;
-    }
-    &__button {
-        margin-top: 60px;
+        &_first {
+            color: #ff0a6a;
+        }
     }
 }
 
-// .header {
-//     height: 100vh;
-//     background-image: url(../assets/images/background/background-first.png);
-//     background-position: top right;
-//     background-size: right top;
-//     // background-size: contain;
-//     background-size: 50% 900px;
-//     background-repeat: no-repeat;
-// }
+.header {
+    position: relative;
+    height: 900px;
+    .content {
+        &__title {
+            margin-top: 171px;
+            padding-right: 518px;
+        }
+        &__subtitle {
+            margin-top: 64px;
+            padding-right: 538px;
+        }
+        &__text {
+            padding-right: 538px;
+        }
+    }
+    .background {
+        position: absolute;
+        width: 50vw;
+        height: 900px;
+        top: 0;
+        right: 0;
+    
+        background: url(../assets/images/background/background-first.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1000;
+    }
+}
+
+.content {
+    &__title {
+        min-width: 300px;
+        color: #333333;
+        @include Proxima-Nova-Semibold;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    &__subtitle {
+        min-width: 300px;
+
+        color: #ff5b97;
+        @include Corinthia;
+        font-size: 44px;
+        font-weight: 400;
+    }
+    &__text {
+        min-width: 300px;
+
+        @include Proxima-Nova-Light;
+        margin-top: 54px;
+    }
+    &__button {
+        padding: 27px 36px 25px 30px;
+        margin-top: 60px;
+
+        background: transparent;
+        @include Proxima-Nova-Semibold;
+        color: #333333;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.12px;
+        border: 1px solid #000000;
+        cursor: pointer;
+        outline: none;
+    }
+}

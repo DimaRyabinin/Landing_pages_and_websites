@@ -1,0 +1,90 @@
+.background-footer {
+    position: absolute;
+        width: 50vw;
+        height: 900px;
+        top: 0;
+        right: 0;
+    
+        background: url(../assets/images/background/background-footer.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1000;
+}
+
+.footer {
+    .content {
+        &__title {
+            color: #333333;
+            @include Proxima-Nova-Semibold;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        &__text {
+            color: #333333;
+            @include Proxima-Nova-Light;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+    .form {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+        input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+        input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+        input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+        input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+        input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+        input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+        input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+        &__input {
+            border: none;
+            border-bottom: 2px solid #dddddd;
+
+            color: #868686;
+            @include Proxima-Nova-Light;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 60px;
+            letter-spacing: 0.12px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .upload {
+        display: flex;
+        align-items: center;
+        #input {
+            display: none;
+        }
+        &__label {
+            margin-left: 14px;
+            color: #868686;
+            @include Proxima-Nova-Light;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 70px;
+            letter-spacing: 0.12px;
+            cursor: pointer;
+        }
+        &__img {
+            cursor: pointer;
+        }
+        &__submit {
+            padding: 26px 40px 26px 40px;
+            color: #ffffff;
+            @include Proxima-Nova-Semibold;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.12px;
+            background-image: linear-gradient(25deg, #e12462 0%, #ff4d87 100%);
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}

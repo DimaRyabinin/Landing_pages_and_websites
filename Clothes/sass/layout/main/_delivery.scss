@@ -1,0 +1,21 @@
+.delivery {
+    &__title {
+        margin-top: 121px;
+
+        color: #333333;
+        @include Proxima-Nova-Semibold;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__map {
+        margin-top: 74px;
+        
+        max-width: 100%;
+        height: auto;
+    }
+    .next {
+        margin-top: 78px;
+        margin-bottom: 39px;
+    }
+}
