@@ -1,0 +1,50 @@
+font-face {
+    src: url(../../assets/fonts/Proxima-Nova-Semibold.ttf);
+    font-family: 'Proxima-Nova-Semibold', sans-serif;
+}
+
+@font-face {
+	font-family: 'Corinthia';
+	src: url('../assets/fonts/corinthia.eot'); /* IE 9 Compatibility Mode */
+	src: url('../assets/fonts/corinthia.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../assets/fonts/corinthia.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../assets/fonts/corinthia.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../assets/fonts/corinthia.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../assets/fonts/corinthia.svg#corinthia') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Proxima Nova Light';
+	src: url('../assets/fonts/ProximaNova-Light.eot');
+	src: url('../assets/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/ProximaNova-Light.woff') format('woff'),
+	url('../assets/fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url('../assets/fonts/ProximaNova-Semibold.eot');
+	src: url('../assets/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/ProximaNova-Semibold.woff') format('woff'),
+	url('../assets/fonts/ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin Proxima-Nova-Semibold {
+    font-family: 'Proxima-Nova-Semibold', sans-serif;
+}
+
+@mixin Corinthia {
+    font-family: 'Corinthia';
+}
+
+@mixin Proxima-Nova-Light {
+	font-family: 'Proxima Nova Light';
+}
+
+@mixin Proxima-Nova-Semibold {
+	font-family: 'Proxima Nova Semibold';
+}
