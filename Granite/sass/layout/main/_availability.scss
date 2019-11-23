@@ -1,0 +1,95 @@
+.title {
+    // margin-top: 80px;
+
+    color: #292929;
+    @include GothamProBold;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main {
+    .availability {
+        .title {
+            margin-top: 80px;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        .substance {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #f6f6f6;
+            min-width: 300px;
+            &__img {
+                &_first {
+                    padding-top: 35px;
+                    padding-right: 23px;
+                    padding-left: 24px;
+                    
+                    max-width: 100%;
+                    height: auto;
+                }
+                &_second {
+                    padding-top: 62px;
+                    padding-right: 24px;
+                    padding-left: 36px;
+
+                    max-width: 100%;
+                    height: auto;
+                }
+                &_third {
+                    padding-right: 18px;
+                    padding-left: 12px;
+
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            &__title {
+                margin-top: 32px;
+
+                @include GothamProMedium;
+                color: #292929;
+                font-size: 15px;
+                font-weight: 500;
+                text-decoration: underline;
+            }
+            &__subtitle {
+                margin-top: 19px;
+
+                color: #626262;
+                @include GothamProLight;
+                font-size: 13px;
+                font-weight: 300;
+                text-align: center;
+            }
+            &__price {
+                margin-top: 29px;
+
+                color: #0f0f0f;
+                @include GothamProMedium;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            &__button {
+                margin-top: 32px;
+                margin-bottom: 36px;
+
+                padding: 15px 55px 14px 56px;
+                color: #0d0d0d;
+                @include GothamProMedium;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 22px;
+                background-color: #ffd200;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+    }
+}

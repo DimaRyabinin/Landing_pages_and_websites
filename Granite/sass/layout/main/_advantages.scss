@@ -1,0 +1,43 @@
+.advantages {
+    margin-top: 80px;
+
+    background-color: #f4f4f4;
+    .title {
+        padding-top: 80px;
+    }
+    .wrapper {
+        margin-top: 60px;
+        padding-bottom: 80px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    .article {
+        padding: 40px 30px 43px 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #ffffff;
+        transition-duration: 0.5s;
+        &:hover {
+            background-color: #ffffff;
+        }
+        &__title {
+            margin-top: 40px;
+
+            color: #292929;
+            @include GothamProMedium;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            @include GothamProLight;
+            text-align: center;
+            color: #292929;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+        }
+    }
+}

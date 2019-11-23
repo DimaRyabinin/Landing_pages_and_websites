@@ -1,0 +1,65 @@
+.header {
+    background: url(../assets/images/header/background.png) no-repeat;
+    background-position: center 135px;
+    padding-top: 36px;
+    background-size: cover;
+    // height: 680px;
+    .hat {
+        display: flex;
+        justify-content: space-between;
+        max-height: 40px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        .wrapper {
+            margin-left: 14px;
+
+            display: flex;
+            flex-direction: column;
+        }
+        &__title {
+            @include GothamProBold;
+            color: #292929;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 22px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        &__subtitle {
+            color: #969696;
+            @include GothamProLight;
+            font-size: 11px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        &__link {
+            color: #292929;
+            @include GothamProBold;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        &__subtitle {
+            color: #969696;
+            @include GothamProLight;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        &__button {
+            padding: 15px 23px 14px 25px;
+            margin-left: 31px;
+            @include GothamProMedium;
+            background: transparent;
+            border: 2px solid #292929;
+        }
+    }
+}

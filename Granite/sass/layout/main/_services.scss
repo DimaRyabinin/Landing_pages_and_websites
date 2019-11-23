@@ -1,0 +1,44 @@
+.services {
+    background-color: #f4f4f4;
+    .wrapper {
+        margin-top: 63px;
+        padding-bottom: 80px;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .title {
+        padding-top: 80px;
+    }
+    .car {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #ffffff;
+        &__title {
+            color: #292929;
+            @include GothamProMedium;
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration: underline;
+            &_first {
+                margin-top: 36px;
+            }
+            &_second {
+                margin-top: 26px;
+            }
+            &_third {
+                margin-top: 26px;
+            }
+        }
+        &-first {
+            padding: 52px 25px 39px 23px;
+        }
+        &-second {
+            padding: 58px 51px 39px 20px;
+        }
+        &-third {
+            padding: 47px 49px 39px 62px;
+        }
+    }
+}

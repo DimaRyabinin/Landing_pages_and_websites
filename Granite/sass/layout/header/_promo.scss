@@ -1,0 +1,53 @@
+.header {
+    .promo {
+        &__title {
+            margin-top: 140px;
+
+            color: #ffffff;
+            @include GothamProBold;
+            font-size: 36px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            margin-top: 40px;
+
+            color: #ffffff;
+            @include GothamProLight;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+        &__button {
+            padding: 15px 29px 15px 30px;
+            
+            background-color: #ffd200;
+            @include GothamProBold;
+            color: #0d0d0d;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 22px;
+            cursor: pointer;
+            outline: none;
+
+        }
+        &__link {
+            margin-left: 31px;
+
+            @include GothamProMedium;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 22px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .wrapper {
+            margin-top: 65px;
+            padding-bottom: 140px;
+
+            display: flex;
+            align-items: center;
+        }
+    }
+}

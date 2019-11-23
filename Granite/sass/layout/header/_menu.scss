@@ -1,0 +1,19 @@
+.menu {
+    margin-top: 31px;
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ffcc00;
+        height: 60px;
+        &__link {
+            // padding-top: 26px;
+            @include GothamProMedium;
+            color: #000000;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
+            text-decoration: none;
+        }
+    }
+}
