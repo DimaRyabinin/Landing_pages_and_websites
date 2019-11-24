@@ -1,0 +1,79 @@
+.footer {
+    background-color: #292929;
+    .wrapper-line {
+        padding-top: 55px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        &-logo {
+            margin-left: 13px;
+
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .logo {
+        display: flex;
+        &__title {
+            color: #ffffff;
+            @include GothamProBold;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 20.9px;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            color: #ffffff;
+            @include GothamProLight;
+            font-size: 10px;
+            font-weight: 300;
+            line-height: 20.9px;
+        }
+    }
+    .copyright {
+        margin-top: 55px;
+        padding-bottom: 43px;
+
+        color: #ffffff;
+        @include GothamProRegular;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+.footer {
+    &-number {
+        color: #ffffff;
+        @include GothamProBold;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: right;
+    }
+    &-title {
+        color: #ffffff;
+        @include GothamProRegular;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: right;
+    }
+    &-button {
+        padding: 12px 23px 11px 25px;
+        color: #ffffff;
+        @include GothamProMedium;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 22px;
+        border: 2px solid #ffffff;
+        background: transparent;
+    }
+}
