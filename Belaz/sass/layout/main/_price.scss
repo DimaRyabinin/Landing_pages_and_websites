@@ -1,0 +1,79 @@
+.price {
+    background: url(../assets/images/main/background-car.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    .title {
+        padding-top: 100px;
+
+        color: #000000;
+        font-family: $ProximaNovaBlack;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: right;
+    }
+    .form {
+        // display: flex;
+        max-width: 732px;
+        margin-top: 60px;
+        float: right;
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                // height: 155px;
+                .input {
+                    padding-left: 31px;
+                    width: 100%;
+                    height: 70px;
+                    border: none;
+                    outline: none;
+                    background-color: #f2f2f2;
+                    color: #818181;
+                    font-family: $ProximaNovaRegular;
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    &-phone {
+                        // margin-left: 30px;
+                    }
+                }
+                &_second {
+                    margin-left: 30px;
+                    .button {
+                        // padding: 0;
+                        // box-sizing: border-box;
+                        // padding: 33px 100px 33px 100px;
+                        margin-top: 30px;
+                        width: 351px;
+                        height: 80px;
+                        color: #ffffff;
+                        font-family: $ProximaNovaBold;
+                        font-size: 17px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        background-color: #1866af;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .wrap {
+                display: flex;
+                .text {
+                    margin-right: 30px;
+                    color: #000000;
+                    font-family: $ProximaNovaRegular;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: right;
+                }
+                &_second {
+                    margin-top: 55px;
+
+                }
+            }
+        }
+        .wrapper-first {
+            margin-right: 30px;
+        }
+}

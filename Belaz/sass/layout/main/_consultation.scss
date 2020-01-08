@@ -1,0 +1,63 @@
+.consultation {
+    background-color: #0d324d;
+    background-image: url(../assets/images/main/section-consultation/image.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    .title {
+        padding-top: 100px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaBlack;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .subtitle {
+        margin-top: 60px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaRegular;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .wrap-link {
+        margin-top: 16px;
+
+        text-align: center;
+    }
+    .link {
+        color: #ffffff;
+        font-family: $ProximaNovaBold;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
+
+.form {
+    margin-top: 59px;
+    padding-bottom: 99px;
+
+    text-align: center;
+    &__input {
+        margin-right: 30px;
+        padding: 19px 106px 15px 31px;
+
+        color: #818181;
+        font-family: $ProximaNovaRegular;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__button {
+        padding: 16px 88px 15px 88px;
+
+        background-color: #f7b516;
+        color: #ffffff;
+        font-family: $ProximaNovaBold;
+        font-size: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}

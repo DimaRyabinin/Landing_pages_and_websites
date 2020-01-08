@@ -1,0 +1,50 @@
+.header-promo {
+    background: url(../assets/images/header/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    .title {     
+        margin-left: 100px;
+        padding-top: 100px;
+
+        color: #000000;
+        font-family: $ProximaNovaBlack;
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    .subtitle {
+        margin-top: 49px;
+        margin-left: 100px;
+
+        color: #000000;
+        font-family: $ProximaNovaBold;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        &:not(:first-child) {
+            margin-top: 48px;
+        }
+        &:first-child {
+            margin-top: 100px;
+        }
+        &:last-child {
+            padding-bottom: 125px;
+        }
+    }
+    .wrap {
+        width: 570px;
+
+        background-color: #f7b516;
+        .functions {
+            margin-left: 100px;
+            &__description {
+                margin-left: 21px;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.hat {
+    background-color: #191919;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedule {
+        display: flex;
+        flex-direction: column;
+        &__time {
+            font-family: $ProximaNovaRegular;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        &__days {
+            color: #ffffff;
+            font-family: $ProximaNovaRegular;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    .numbers {
+        margin-right: 28px;
+
+        display: flex;
+        flex-direction: column;
+        .number {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: $ProximaNovaBlack;
+            font-size: 18px;
+            font-weight: 400;
+            &_second {
+                margin-top: 14px;
+            }
+        }
+    }
+    .button {
+        padding: 21px 28px 21px 28px;
+        border: none;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: $ProximaNovaRegular;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #1669b3;
+    }
+}

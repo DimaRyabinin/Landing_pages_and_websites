@@ -1,0 +1,35 @@
+.warehouse {
+    background-color: #0b3554;
+    .title {
+        padding-top: 100px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaBlack;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .subtitle {
+        margin-top: 32px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaRegular;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .figure {
+        margin-top: 99px;
+        padding-bottom: 99px;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &__img {
+            max-width: 100%;
+        }
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+    }
+}

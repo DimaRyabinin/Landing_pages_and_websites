@@ -1,0 +1,60 @@
+.connection {
+    background: url(../assets/images/main/section-connection/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    .title {
+        padding-top: 100px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaBlack;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .form {
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-around;
+        &__input {
+            padding-left: 31px;
+            width: 339px;
+            // height: 50px;
+        }
+        &__button {
+            background-color: #f7b516;
+            color: #ffffff;
+            font-family: $ProximaNovaBold;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 370px;
+            height: 56px;
+            cursor: pointer;
+        }
+    }
+    .down-title {
+        margin-top: 60px;
+
+        font-family: $ProximaNovaRegular;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        &_second {
+            margin-top: 29px;
+        }
+    }
+    .link {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding-bottom: 98px;
+
+        color: #ffffff;
+        font-family: $ProximaNovaBold;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
